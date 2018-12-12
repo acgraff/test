@@ -1,0 +1,8 @@
+from gpiozero import LED
+from signal import pause
+
+tran = LED(17)
+tran.on()
+
+pause()
+
